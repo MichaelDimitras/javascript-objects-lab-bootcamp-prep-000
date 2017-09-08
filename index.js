@@ -1,7 +1,6 @@
 var recipes = {};
 
 function updateObjectWithKeyAndValue(obj, k, v){
-  var tmp = 
   return Object.assign(obj, {[k]:v});
 }
 
