@@ -9,3 +9,10 @@ function destructivelyUpdateObjectWithKeyAndValue(o,k,v){
   o[k] = v;
   return o;
 }
+
+
+function deleteFromObjectByKey(obj, k){
+  var temp = o.assign({}, o);
+  delete temp[k];
+  return temp;
+}
